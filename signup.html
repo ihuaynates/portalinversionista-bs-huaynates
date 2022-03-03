@@ -73,17 +73,118 @@
                 class="btn btn-outline-primary my-2 my-sm-0"
                 type="submit"
               >
-                Iniciar Sesion
+                <a aria-current="page" href="signin.html">Iniciar Sesion</a>
               </button>
               <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                Registrate
+                <a
+                  aria-current="page"
+                  href="signup.html"
+                  class="badge badge-primary"
+                  >Registrate</a
+                >
               </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
-
+    <main>
+      <section>
+        <div class="container pt-5 pb-5">
+          <div class="row align-items-center pt-3 pb-3">
+            <div class="col-md-6 border shadow">
+              <p class="h2 text-center mt-3">Crear Cuenta</p>
+              <form class="m-3">
+                <div class="form-group">
+                  <label for="exampleFormControlInput3">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    id="exampleFormControlInput3"
+                    placeholder="Juan"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput3">Apellido</label>
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    id="exampleFormControlInput3"
+                    placeholder="Perez"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput3">Email</label>
+                  <input
+                    type="email"
+                    class="form-control mb-3"
+                    id="exampleFormControlInput3"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput4">Password</label>
+                  <input
+                    type="password"
+                    class="form-control mb-3"
+                    id="exampleFormControlInput4"
+                    placeholder="********"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput4">Repetir Password</label>
+                  <input
+                    type="password"
+                    class="form-control mb-3"
+                    id="exampleFormControlInput4"
+                    placeholder="********"
+                  />
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                  />
+                  <label class="form-check-label" for="defaultCheck1">
+                    Acepta los terminos y condiciones?
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Registrarse
+                </button>
+                <button type="submit" class="btn btn-primary">
+                  Borrar Formulario
+                </button>
+              </form>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="container align-items-center">
+                <div class="row border shadow p-2">
+                  <p>Ya tienes una cuenta?</p>
+                  <button type="submit" class="btn btn-primary">
+                    <a
+                      aria-current="page"
+                      href="signin.html"
+                      class="badge badge-primary"
+                      >Iniciar Sesion</a
+                    >
+                  </button>
+                </div>
+                <div class="row p-3">
+                  <img
+                    class="img-fluid"
+                    src="images/signin.svg"
+                    alt="persona con monedas"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <section>
         <div class="container">
